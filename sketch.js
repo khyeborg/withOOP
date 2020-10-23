@@ -4,7 +4,7 @@ let ballArray = [];
 function setup() {
    createCanvas(500, 500);
  
-   for (let i = 0; i < 100; i++) {
+   for (let i = 0; i < 3; i++) {
       let temp = new Ball(random(0, 500), 250, 0, 255, 0, random(2, 5));
       ballArray.push(temp);
    }
