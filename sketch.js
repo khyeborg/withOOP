@@ -26,7 +26,7 @@ function draw() {
 }
  
 class Ball {
-   constructor(x, y, r, g, b, speed ) {
+   constructor(x, y, r, g, b, speed) {
       this.xPos = x;
       this.yPos = y;
       this.redValue = r;
